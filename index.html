@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>C++ Docs</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>DOCUMENTATION</title>
+  <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/6132/6132222.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
 
-  <body>
+<body>
 
   <div class="title">
     <h1>C++ Documentation </h1>
@@ -22,20 +30,60 @@
 
         <div class="">
           <ul class="navbar-nav">
-            <li class="navbar-items">
-              <a class="nav-link" href="#overview">Overview</a>
+            <li class="navbar-items dropdown">
+              <a class="nav-link dropdown-toggle" href="#introduction" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                C++ Introduction
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#var">C++ Variables, Literals</a></li>
+                <li><a class="dropdown-item" href="#dt">C++ Data Types</a></li>
+                <li><a class="dropdown-item" href="#op">C++ Operators</a></li>
+              </ul>
             </li>
-            <li class="navbar-items">
-              <a class="nav-link" href="#functions">Functions</a>
+            <li class="navbar-items dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                C++ Flow Control
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
             </li>
-            <li class="navbar-items">
-              <a class="nav-link" href="#footer">Contact</a>
+            <li class="navbar-items dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                C++ Functions
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
             </li>
-            <li class="navbar-items">
-              <a class="nav-link" href="#features">Features</a>
+            <li class="navbar-items dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                C++ Array String
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
             </li>
-            <li class="navbar-items">
-              <a class="nav-link" href="#testimonials">Testimonials</a>
+            <li class="navbar-items dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                C++ Pointers
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
             </li>
           </ul>
         </div>
@@ -44,21 +92,98 @@
     </div>
     <div class="col-sm-6 content">
 
-      <section id="overview">
-        <h1>What is C++?</h1>
-        <p>C++ (/ˌsiːˌplʌsˈplʌs/) is a general-purpose programming language created by Danish computer scientist Bjarne Stroustrup as an extension of the C programming language, or "C with Classes". The language has expanded significantly over time, and modern C++ now has object-oriented, generic, and functional features in addition to facilities for low-level memory manipulation. It is almost always implemented as a compiled language, and many vendors provide C++ compilers, including the Free Software Foundation, LLVM, Microsoft, Intel, Oracle, and IBM, so it is available on many platforms.[10]</p>
+      <section id="introduction">
+        <div class="introsec">
+          <h1>C++ Introduction</h1>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title" id="var">C++ Variables, Literals</h5>
+              <p class="card-text">In programming, a variable is a container (storage area) to hold data.To indicate the
+                storage area, each variable should be given a unique name (identifier). For example,</p>
+
+              <code class="cpp hljs"><span class="hljs-keyword">int</span> age = <span class="hljs-number">14</span>;
+                </code>
+
+              <p class="card-text">Here, age is a variable of the int data type, and we have assigned an integer value
+                14 to it. </p>
+
+              <p class="note-tip"><strong>Note:</strong> The <code>int</code> data type suggests that the variable can
+                only hold integers. Similarly, we can use the <code>double</code> data type if we have to store decimals
+                and exponentials.</p>
+              
+              <p class="card-text" >We will learn about all the data types in detail in the next tutorial. The value of a variable can be changed, hence the name variable. </p>  
+              
+              <h4 id="naming-rules">Rules for naming a variable</h4>
+
+              <ul class="list-unstyled list-" >
+                <li>A variable name can only have alphabets, numbers, and the underscore <code>_</code>.</li>
+                <li>A variable name cannot begin with a number.</li>
+                <li>It is a preferred practice to begin variable names with a lowercase character. For example, <var>name</var> is preferable to <var>Name</var>.</li>
+                <li>A variable name cannot be a <a href="https://www.programiz.com/cpp-programming/keywords-identifiers">keyword</a>. For example, <code>int</code> is a keyword that is used to denote integers.</li>
+                <li>A variable name can start with an underscore. However, it's not considered a good practice.</li>
+              </ul>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="introsec">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title" id="dt">C++ Data Types</h5>
+              <p class="card-text">C++ (/ˌsiːˌplʌsˈplʌs/) is a general-purpose programming language created by Danish
+                computer scientist Bjarne
+                Stroustrup as an extension of the C programming language, or "C with Classes". The language has expanded
+                significantly over time, and modern C++ now has object-oriented, generic, and functional features in
+                addition
+                to facilities for low-level memory manipulation. It is almost always implemented as a compiled language,
+                and
+                many vendors provide C++ compilers, including the Free Software Foundation, LLVM, Microsoft, Intel,
+                Oracle,
+                and IBM, so it is available on many platforms.[10]</p>
+              <!-- <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a> -->
+            </div>
+          </div>
+
+        </div>
+
+        <div class="introsec">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title" id="op">C++ Operators</h5>
+              <p class="card-text">C++ (/ˌsiːˌplʌsˈplʌs/) is a general-purpose programming language created by Danish
+                computer scientist Bjarne
+                Stroustrup as an extension of the C programming language, or "C with Classes". The language has expanded
+                significantly over time, and modern C++ now has object-oriented, generic, and functional features in
+                addition
+                to facilities for low-level memory manipulation. It is almost always implemented as a compiled language,
+                and
+                many vendors provide C++ compilers, including the Free Software Foundation, LLVM, Microsoft, Intel,
+                Oracle,
+                and IBM, so it is available on many platforms.[10]</p>
+              <!-- <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a> -->
+            </div>
+          </div>
+
+        </div>
+
       </section>
 
       <section id="functions">
         <h1>Functions</h1>
         <p>A function is a block of code which only runs when it is called.
 
-You can pass data, known as parameters, into a function.
+          You can pass data, known as parameters, into a function.
 
-Functions are used to perform certain actions, and they are important for reusing code: Define the code once, and use it many times.</p>
+          Functions are used to perform certain actions, and they are important for reusing code: Define the code once,
+          and use it many times.</p>
       </section>
     </div>
   </div>
 
-  </body>
+</body>
+
 </html>
