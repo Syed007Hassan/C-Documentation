@@ -1,5 +1,6 @@
 
 .navigation {
+  font-family: 'Inter', sans-serif;
   padding-top: 20px;
   padding-bottom: 100%;
   padding-left: 30px;
@@ -7,9 +8,13 @@
 }
 
 .title {
-  padding-left: 40%;
+  
+  padding-top: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  text-align: center;
   background: #F65A83;
-  margin-bottom: 0px;
+ 
 }
 
 h1 {
@@ -22,6 +27,30 @@ section {
 }
 
 .content {
+  font-family: 'Inter', sans-serif;
   padding-top: 30px;
   padding-left: 30px;
 }
+
+
+/* a:hover {
+  text-decoration: underline;
+} */
+
+a:hover, a:focus{
+  color: red;
+  text-decoration: underline;
+ 
+}
+
+.navbar{
+  font-family: 'Inter', sans-serif;
+}
+
+.introsec{
+
+  margin-bottom: 30px;
+
+}
+
+
