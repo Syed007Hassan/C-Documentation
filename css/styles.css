@@ -4,17 +4,18 @@
   padding-top: 20px;
   padding-bottom: 100%;
   padding-left: 30px;
-  width: 250px;
+  width: 300px;
 }
 
 .title {
-  
+
   padding-top: 10px;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   text-align: center;
   background: #F65A83;
- 
+  color: #fff;
+
 }
 
 h1 {
@@ -40,7 +41,7 @@ section {
 a:hover, a:focus{
   color: red;
   text-decoration: underline;
- 
+
 }
 
 .navbar{
@@ -53,4 +54,7 @@ a:hover, a:focus{
 
 }
 
-
+img{
+  text-align: center;
+  padding: 20px 0 20px 20%;
+}
