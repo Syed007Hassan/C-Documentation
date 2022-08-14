@@ -7,13 +7,9 @@
   <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/6132/6132222.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;800;900&display=swap"
-    rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -31,8 +27,7 @@
         <div class="">
           <ul class="navbar-nav">
             <li class="navbar-items dropdown">
-              <a class="nav-link dropdown-toggle" href="#introduction" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#introduction" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 C++ Introduction
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -42,47 +37,41 @@
               </ul>
             </li>
             <li class="navbar-items dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 C++ Flow Control
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#if-else">C++ if, if...else</a></li>
+                <li><a class="dropdown-item" href="#if">C++ if</a></li>
+                <li><a class="dropdown-item" href="#for-loop">C++ for Loop</a></li>
               </ul>
             </li>
             <li class="navbar-items dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 C++ Functions
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#func">C++ Functions</a></li>
+                <li><a class="dropdown-item" href="#func-user">User-defined Function</a></li>
+                <li><a class="dropdown-item" href="#func-types">Function types</a></li>
               </ul>
             </li>
             <li class="navbar-items dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 C++ Array String
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#arrays">C++ Arrays</a></li>
+                <li><a class="dropdown-item" href="#arr-multi">Multidimensional Arrays</a></li>
+                <li><a class="dropdown-item" href="#arr-pass">Passing Array to a Function</a></li>
               </ul>
             </li>
             <li class="navbar-items dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 C++ Pointers
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#pointer">Pointers</a></li>
               </ul>
             </li>
           </ul>
@@ -102,7 +91,7 @@
                 storage area, each variable should be given a unique name (identifier). For example,</p>
 
               <code class="cpp hljs"><span class="hljs-keyword">int</span> age = <span class="hljs-number">14</span>;
-                </code>
+              </code>
 
               <p class="card-text">Here, age is a variable of the int data type, and we have assigned an integer value
                 14 to it. </p>
@@ -110,12 +99,12 @@
               <p class="note-tip"><strong>Note:</strong> The <code>int</code> data type suggests that the variable can
                 only hold integers. Similarly, we can use the <code>double</code> data type if we have to store decimals
                 and exponentials.</p>
-              
-              <p class="card-text" >We will learn about all the data types in detail in the next tutorial. The value of a variable can be changed, hence the name variable. </p>  
-              
+
+              <p class="card-text">We will learn about all the data types in detail in the next tutorial. The value of a variable can be changed, hence the name variable. </p>
+
               <h4 id="naming-rules">Rules for naming a variable</h4>
 
-              <ul class="list-unstyled list-" >
+              <ul class="">
                 <li>A variable name can only have alphabets, numbers, and the underscore <code>_</code>.</li>
                 <li>A variable name cannot begin with a number.</li>
                 <li>It is a preferred practice to begin variable names with a lowercase character. For example, <var>name</var> is preferable to <var>Name</var>.</li>
@@ -172,16 +161,330 @@
 
       </section>
 
-      <section id="functions">
-        <h1>Functions</h1>
-        <p>A function is a block of code which only runs when it is called.
+      <!-- asdasdd asdasad asd asd -->
 
-          You can pass data, known as parameters, into a function.
+      <section id="fc">
+        <div class="introsec">
+          <h1>C++ Flow Control</h1>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title" id="if-else">C++ if, if...else and Nested if...else</h5>
+              <p class="card-text">In this tutorial, we will learn about the if...else statement to create decision making programs with the help of examples.
 
-          Functions are used to perform certain actions, and they are important for reusing code: Define the code once,
-          and use it many times.</p>
+              </p>
+
+              <p class="card-text">
+
+                In computer programming, we use the <code>if...else</code> statement to run one block of code under certain conditions and another block of code under different conditions.</p>
+
+
+              <p class="card-text">For example, assigning grades (A, B, C) based on marks obtained by a student. </p>
+
+              <ul class="">
+                <li>if the percentage is above 90, assign grade A</li>
+                <li>if the percentage is above 75, assign grade B</li>
+                <li>if the percentage is above 65, assign grade C
+                </li>
+              </ul>
+
+              <p class="card-text">There are three forms of <code>if...else</code> statements in C++. </p>
+
+
+              <ul class="">
+                <li><code>if</code> statement
+                </li>
+                <li><code>if...else</code> statement</li>
+                <li><code>if...else if...else</code> statement</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="introsec">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title" id="if">C++ if Statement</h5>
+              <p class="card-text">The syntax of the <code>if</code> statement is:</p>
+
+              <code>
+                if (condition) { <br>
+                // body of if statement <br>
+                } <br>
+
+              </code>
+
+              <p class="card-text">The <code>if</code> statement evaluates the <code>condition</code> inside the parentheses <code>( )</code>. </p>
+
+              <ul class="">
+                <li>If the <code>condition</code> evaluates to <code>true</code>, the code inside the body of if is <code>executed</code>.</li>
+                <li>If the <code>condition</code> evaluates to <code>false</code>, the code inside the body of <code>if</code> is skipped.</li>
+              </ul>
+
+              <!-- <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a> -->
+            </div>
+          </div>
+
+        </div>
+
+        <div class="introsec">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title" id="for-loop">C++ for Loop</h5>
+              <p class="card-text">In computer programming, loops are used to repeat a block of code.</p>
+
+              <p class="card-text">For example, let's say we want to show a message 100 times. Then instead of writing the print statement 100 times, we can use a loop.</p>
+              <p class="card-text">That was just a simple example; we can achieve much more efficiency and sophistication in our programs by making effective use of loops.</p>
+              <!-- <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a> -->
+            </div>
+          </div>
+
+        </div>
+
       </section>
+
+      <!-- asdasd as das -->
+
+
+      <section id="function">
+        <div class="introsec">
+          <h1>C++ Functions</h1>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title" id="func">C++ Functions</h5>
+              <p class="card-text">A function is a block of code that performs a specific task.</p>
+
+              <p class="card-text">Suppose we need to create a program to create a circle and color it. We can create two functions to solve this problem:</p>
+
+              <ul class="">
+                <li>a function to draw the circle</li>
+                <li>a function to color the circle</li>
+              </ul>
+
+              <p class="card-text">Dividing a complex problem into smaller chunks makes our program easy to understand and reusable. </p>
+              <p class="card-text">There are two types of function: </p>
+
+
+              <ul class="">
+                <li><strong>Standard Library Functions:</strong> Predefined in C++</li>
+                <li><strong>User-defined Function:</strong> Created by users</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="introsec">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title" id="func-user">C++ User-defined Function</h5>
+              <p class="card-text">C++ allows the programmer to define their own function.</p>
+              <p class="card-text">A user-defined function groups code to perform a specific task and that group of code is given a name (identifier).</p>
+              <p class="card-text">When the function is invoked from any part of the program, it all executes the codes defined in the body of the function.</p>
+
+              <h5>C++ Function Declaration</h5>
+              <p class="card-text">The syntax to declare a function is:</p>
+
+
+              <code>
+                returnType functionName (parameter1, parameter2,...) { <br>
+                // function body <br>
+                } <br>
+
+              </code>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="introsec">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title" id="func-types">C++ User-defined Function Types</h5>
+              <p class="card-text">For better understanding of arguments and return in functions, user-defined functions can be categorised as:</p>
+
+              <ul class="">
+                <li>Function with no argument and no return value</li>
+                <li>Function with no argument but return value</li>
+              </ul>
+
+              <h5>Example 1: No arguments passed and no return value</h5>
+
+              <code>
+                # include <iostream> <br>
+                  using namespace std; <br>
+
+                  void prime(); <br>
+
+                  int main() <br>
+                  {<br>
+                  // No argument is passed to prime() <br>
+                  prime(); <br>
+                  return 0; <br>
+                  } <br>
+
+
+                  // Return type of function is void because value is not returned. <br>
+                  void prime() <br>
+                  { <br>
+
+                  int num, i, flag = 0;<br>
+
+                  cout << "Enter a positive integer enter to check: " ; <br>
+                    cin >> num; <br>
+
+                    for(i = 2; i <= num/2; ++i) <br>
+                      { <br>
+                      if(num % i == 0) <br>
+                      { <br>
+                      flag = 1; <br>
+                      break; <br>
+                      } <br>
+                      } <br>
+
+                      if (flag == 1) <br>
+                      { <br>
+                      cout << num << " is not a prime number." ; <br>
+                        } <br>
+                        else <br>
+                        { <br>
+                        cout << num << " is a prime number." ; <br>
+                          } <br>
+                          } <br>
+              </code>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- sdfsdf ds  dsf sd sdf sd  -->
+
+      <section id="arr">
+        <div class="introsec">
+          <h1>C++ Arrays and String</h1>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title" id="array">C++ Arrays</h5>
+              <p class="card-text">In C++, an array is a variable that can store multiple values of the same type. For example,</p>
+
+              <p class="card-text">Suppose a class has 27 students, and we need to store the grades of all of them. Instead of creating 27 separate variables, we can simply create an array:</p>
+
+              <code>
+                double grade[27];
+              </code>
+
+              <p class="card-text">Here, <var>grade</var> is an array that can hold a maximum of 27 elements of <var>double</var> type. </p>
+              <p class="card-text">In C++, the size and type of arrays cannot be changed after its declaration. </p>
+
+
+              <h5>C++ Array Declaration</h5>
+              <code>dataType arrayName[arraySize];</code>
+
+              <p class="card-text">For example, </p>
+
+
+              <var>int x[6];</var>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="introsec">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title" id="arr-multi">C++ Multidimensional Arrays</h5>
+              <p class="card-text">In C++, we can create an array of an array, known as a multidimensional array. For example:</p>
+
+              <code>int x[3][4];</code>
+
+              <p class="card-text">Here, <var>x</var> is a two-dimensional array. It can hold a maximum of 12 elements.</p>
+              <p class="card-text">We can think of this array as a table with 3 rows and each row has 4 columns as shown below.</p>
+
+              <img src="/images/array.png" alt="">
+
+              <p class="card-text">Three-dimensional arrays also work in a similar way. For example:</p>
+
+              <var>float x[2][4][3];</var>
+
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="introsec">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title" id="arr-pass">Passing Array to a Function in C++ Programming</h5>
+              <p class="card-text">In C++, we can pass arrays as an argument to a function. And, also we can return arrays from a function.</p>
+              <p class="card-text">Before you learn about passing arrays as a function argument, make sure you know about C++ Arrays and C++ Functions.</p>
+
+              <h5>Syntax for Passing Arrays as Function Parameters</h5>
+
+              <p class="card-text">The syntax for passing an array to a function is:</p>
+
+              <code>
+                returnType functionName(dataType arrayName[arraySize]) { <br>
+                // code <br>
+                } <br>
+              </code>
+
+              <p class="card-text">Let's see an example,</p>
+
+              <code>
+                int total(int marks[5]) { <br>
+                // code <br>
+                } <br>
+              </code>
+
+              <p class="card-text">Here, we have passed an <var>int</var> type array named <var>marks</var> to the function <var>total()</var>. The size of the array is <var>5</var>.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- dsf sd fsd d sd  -->
+
+      <section id="c-pointer">
+        <div class="introsec">
+          <h1>C++ Pointers</h1>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title" id="pointer">C++ Pointers</h5>
+              <p class="card-text">In C++, pointers are variables that store the memory addresses of other variables.</p>
+
+              <h5>Address in C++</h5>
+
+              <p class="card-text">If we have a variable var in our program, &var will give us its address in the memory. For example,</p>
+
+
+              <p class="card-text">Example 1: Printing Variable Addresses in C++ </p>
+
+              <img src="/images/pointer.png" alt="">
+
+              <p class="card-text">Output </p>
+
+              <img src="/images/pointer-output.png" alt="">
+
+            </div>
+          </div>
+
+        </div>
+
     </div>
+  </div>
+
+  <div class="title">
+    <h1>...</h1>
   </div>
 
 </body>
